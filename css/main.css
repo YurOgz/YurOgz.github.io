@@ -1,0 +1,352 @@
+*{
+  padding:0;
+  margin: 0;
+  text-decoration: none;
+}
+
+/*  Прикрепление футера к низу*/
+html{
+  height: 100%;
+}
+
+.page-wrap_0:after{
+  content: "";
+  display: block;
+}
+
+footer, .page-wrap_0:after{
+  height: 10px;
+}
+
+.page-wrap_0{
+  min-height: 98%;
+  margin-bottom: -10px;
+}
+
+.page-wrap:after{
+  content: "";
+  display: block;
+}
+
+footer, .page-wrap:after{
+  height: 10px;
+}
+
+.page-wrap{
+  min-height: 195%;
+  margin-bottom: -10px;
+}
+
+/*                        */
+
+/*  ЛЕВАЯ ЧАСТЬ САЙТА    */
+.left_block_menus_NazV{
+  width: 300px;
+  height: 390px;
+  font-family: Comic Sans MS, sans-serif;
+}
+
+.block_nazv_site{
+  width:300px;
+  height: 100px;
+  background-color: #333;
+  border-right: 1px solid red;
+  border-bottom: 1px solid red;
+}
+
+.nazv_sit_h1{
+  text-align: center;
+  padding-top: 30px;
+}
+
+.nazv_sit_hrefs{
+  color: #0ff000;
+}
+
+.podNazv_left_block{
+  width: 300px;
+  height: 35px;
+  background-color: #333;
+  text-align: center;
+  border-right: 1px solid red;
+  border-bottom: 1px solid red;
+}
+
+.nazv_sit_hrefs_menus{
+  color: #0ff000;
+  padding-left: 4px;
+  padding-bottom: 3px;
+  padding-right: 4px;
+}
+
+.href_ssilka_h4{
+  padding-top: 4px;
+}
+
+.nazv_sit_hrefs_menus:hover{
+  background-color:#585757;
+  border-radius: 7px;
+}
+/*                    */
+
+
+/*   ПОИСК       */
+.poisk_right{
+  width: 270px;
+  height: 36px;
+  background-color: #333;
+  float: right;
+  border-left: 2px solid red;
+  border-bottom: 2px solid red;
+}
+
+.OK_rght{
+  color: #fff;
+  font-size: 17px;
+  background-color: #ff0000;
+  font-family: Comic Sans MS, sans-serif;
+  margin-top: 5px;
+  border-radius: 8px;
+}
+
+.OK_rght, .poisk{
+  float: right;
+  margin-right: 12px;
+  padding: 1px;
+}
+
+.poisk{
+  margin-top: 7px;
+}
+/*             */
+
+
+/*  ТОП НОВОСТИ*/
+.right_news_top{
+  width: 270px;
+  height: 140px;
+  background-color: #333;
+  float: right;
+  border-top: 2px solid red;
+  border-left: 2px solid red;
+  border-bottom: 2px solid red;
+  margin-top: 25px;
+}
+
+.news_top_h3{
+  color: red;
+  text-align: center;
+  font-family: Comic Sans MS, sans-serif;
+  padding-top: 3px;
+}
+
+.news_top_ul{
+  color: #11ffff;
+  margin-left: 36px;
+  margin-top: 13px;
+  word-spacing: 3px;
+  line-height: 22px;
+}
+
+.news_top_li{
+  color: #11ffff;
+}
+
+.news_top_li:hover{
+  text-decoration: underline;
+}
+/*                    */
+
+/*    ЦЕНТР САЙТА   */
+
+.center_sit_infa{
+  width: 728px;
+  height: 568px;
+  border: 1px solid black;
+  float: right;
+  margin-right: 340px;
+  margin-top: 15px;
+}
+
+.nazv_cent_block{
+  width: 728px;
+  height: 38px;
+  border-bottom: 1px dashed #464646;
+}
+
+.nazv_cent_block_h1{
+  font-family: Comic Sans MS, sans-serif;
+  font-size: 25px;
+  padding-left: 20px;
+}
+
+.center_sit_obzor_novinok{
+  width: 728px;
+  height: 230px;
+  border-bottom: 1px dashed #464646;
+  margin: 0 auto;
+}
+
+.Nazv_product{
+  font-family: Comic Sans MS, sans-serif;
+  font-size: 19px;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.center_sit_img{
+  margin-top: 20px;
+  float: left
+}
+
+.text_k_img{
+  margin-top: 15px;
+  margin-left: 300px;
+  margin-right: 15px;
+}
+
+.centr_sit_cheat_dalee{
+  background-color: #333;
+  border-radius: 8px;
+  float: right;
+  margin-right: 80px;
+  margin-top: 17px;
+}
+
+.cheat_dalee_href{
+  font-size: 29px;
+  color:#00e2ff;
+  padding-left:7px;
+  padding-right: 7px;
+  padding-bottom: 20px;
+  padding-top: 5px;
+}
+
+.cheat_dalee_href:hover{
+  color: red;
+}
+
+
+/*                  */
+
+/*   footer          */
+
+footer{
+  width:100%;
+  height: 35px;
+  background-color: #333;
+  margin-top: 10px;
+}
+
+.ul_footer_sit{
+  float: left;
+}
+
+.li_footer_sit{
+  float:left;
+  margin-left: 40px;
+  margin-top: 7px;
+}
+
+.href_footer_sit{
+  color: #00ff89;
+  text-decoration: underline;
+}
+
+
+/*                  */
+
+
+
+/*     Реклама   */
+
+.reklama_1{
+  width: 300px;
+  height: 250px;
+  margin-top: 35px;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.reklama_2{
+  width: 728px;
+  height: 90px;
+  margin: 0 auto;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  float: right;
+  margin-right: 68px;
+}
+
+.reklama_3{
+  width: 240px;
+  height: 400px;
+  border: 1px solid black;
+  float: right;
+  margin-top: 30px;
+}
+
+/*               */
+
+/*    Для всех обзоров  */
+
+.vse_obzori_na_site{
+  width: 728px;
+  height: 1360px;
+  border: 1px solid black;
+  float: right;
+  margin-right: 340px;
+  margin-top: 15px;
+}
+
+.vse_obzori_h1{
+  text-align: center;
+  font-family: Comic Sans MS, sans-serif;
+}
+
+.vse_obzori_img{
+  float:left;
+  margin-top: 15px;
+  margin-left: 50px;
+}
+
+.vse_obzori_img_2{
+  display: block;
+  margin: 0 auto;
+}
+
+.text_k_obz_sit{
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.Opisanie_tovar{
+  font-size: 24px;
+  font-family: Helvetica, sans-serif;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.hr_vse_obz{
+  width:727;
+  border-bottom: 1px solid #a2a2a2;
+}
+
+.gl_nazv_XR{
+  font-size: 20px;
+  margin-top: 5px;
+  margin-left: 35px;
+  font-family: Zapf Chancery, cursive;
+}
+
+.nize_gl_nazv{
+  font-size: 24px;
+  margin-left: 45px;
+  color: #8b8888;
+  font-family: Zapf Chancery, cursive;
+}
+
+/*                       */
